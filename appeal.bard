@@ -1,0 +1,32 @@
+@metadata
+  title: Appeal
+  author: Chris Patti
+  version: 1.0.0
+  story_id: appeal
+  description: An interactive adventure celebrating Boston history.
+
+@start DexterGate
+
+:: DexterGate
+You are standing outside one of the gates to Harvard University.  A plaque off to the side
+tells you that this is Dexter Gate. Always read the plaque! :)
+
+Harvard Square. City Hall is in Central Square, but the beating heart and the living soul
+of Cambridge, Massachusetts is right here.
+
+Generations of people have come here to live, work, study, eat, party, or for the more
+unfornate find a warm place to huddle against the cold and maybe bum a few bucks for some
+food or a bottle off of one of the myriad tourists.
+
++ [Cross the street to the Harvard Bookstore] -> HarvardBookStore
+
+:: HarvardBookStore
+
+You are a bibliophile. Nothing makes you feel more at home than the very slight musty smell
+of old books, well cared for and numerous, loading down the shelves and practically
+bursting out of every possible space.
+
+For you, this place is comfort food for the soul.
+
+
+

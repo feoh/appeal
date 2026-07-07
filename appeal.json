@@ -1,0 +1,152 @@
+{
+  "version": "0.1.0",
+  "initial_passage": "DexterGate",
+  "metadata": {
+    "title": "Appeal",
+    "author": "Chris Patti",
+    "version": "1.0.0",
+    "story_id": "appeal",
+    "description": "An interactive adventure celebrating Boston history."
+  },
+  "imports": [],
+  "passages": {
+    "DexterGate": {
+      "id": "DexterGate",
+      "params": [],
+      "content": [
+        {
+          "type": "text",
+          "value": "You are standing outside one of the gates to Harvard University.  A plaque off to the side"
+        },
+        {
+          "type": "text",
+          "value": "\n"
+        },
+        {
+          "type": "text",
+          "value": "tells you that this is Dexter Gate. Always read the plaque! :)"
+        },
+        {
+          "type": "text",
+          "value": "\n"
+        },
+        {
+          "type": "text",
+          "value": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Harvard Square. City Hall is in Central Square, but the beating heart and the living soul"
+        },
+        {
+          "type": "text",
+          "value": "\n"
+        },
+        {
+          "type": "text",
+          "value": "of Cambridge, Massachusetts is right here."
+        },
+        {
+          "type": "text",
+          "value": "\n"
+        },
+        {
+          "type": "text",
+          "value": "\n"
+        },
+        {
+          "type": "text",
+          "value": "Generations of people have come here to live, work, study, eat, party, or for the more"
+        },
+        {
+          "type": "text",
+          "value": "\n"
+        },
+        {
+          "type": "text",
+          "value": "unfornate find a warm place to huddle against the cold and maybe bum a few bucks for some"
+        },
+        {
+          "type": "text",
+          "value": "\n"
+        },
+        {
+          "type": "text",
+          "value": "food or a bottle off of one of the myriad tourists."
+        },
+        {
+          "type": "text",
+          "value": "\n"
+        }
+      ],
+      "choices": [
+        {
+          "text": [
+            {
+              "type": "text",
+              "value": "Cross the street to the Harvard Bookstore"
+            }
+          ],
+          "target": "HarvardBookStore",
+          "args": "",
+          "condition": null,
+          "sticky": true,
+          "tags": [],
+          "section": 0
+        }
+      ],
+      "execute": [],
+      "tags": [],
+      "current_section": 0
+    },
+    "HarvardBookStore": {
+      "id": "HarvardBookStore",
+      "params": [],
+      "content": [
+        {
+          "type": "text",
+          "value": "\n"
+        },
+        {
+          "type": "text",
+          "value": "You are a bibliophile. Nothing makes you feel more at home than the very slight musty smell"
+        },
+        {
+          "type": "text",
+          "value": "\n"
+        },
+        {
+          "type": "text",
+          "value": "of old books, well cared for and numerous, loading down the shelves and practically"
+        },
+        {
+          "type": "text",
+          "value": "\n"
+        },
+        {
+          "type": "text",
+          "value": "bursting out of every possible space."
+        },
+        {
+          "type": "text",
+          "value": "\n"
+        },
+        {
+          "type": "text",
+          "value": "\n"
+        },
+        {
+          "type": "text",
+          "value": "For you, this place is comfort food for the soul."
+        },
+        {
+          "type": "text",
+          "value": "\n"
+        }
+      ],
+      "choices": [],
+      "execute": [],
+      "tags": []
+    }
+  }
+}
