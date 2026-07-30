@@ -45,7 +45,41 @@ You scratch your eyes wondering if you need more coffee when you realize
 that no, you really ARE seeing the book emanate a faint glow. Well, 
 maybe not so much a glow as a slight shimmering in the air around it.
 
-@py
-# Grab the book or not
-@endpy
+* [Take the glowing book] -> Holding_The_Book
++ [Drop purchases and run out of the store] -> DexterGate
 
+:: Holding_The_Book
+
+As you pull the book off the shelf, your fingers tingle. Or is that your 
+imagination?
+
+The book is a hard cover in Boston's city color "Continental Blue". The title,
+which is set into the cover il ornate gilt lettering, reads:
+"Appeal To Heaven: A History of Boston in Sketches".
+
+Towards the bottom of the cover in smaller less ornate lettering is the phrase:
+"Filii Libertatis".
+
+You begin leafing through the pages. Each page depicts a scene from Boston's storied
+history.
+
+The first page shows a sketch depicting a crowd of men wearing hoods or handkerchiefs to
+obscure their identities, with what skin remained visible being blackened with charcoal
+or ash and cloaks hoods, smashing large wooden tea chests and dumping the contents into the
+harbor.
+
+You are transfixed by the scene as the illustration almost comes alive in your mind.
+
+One of the figures turns to you, eyeing you up and down approvingly.
+
+"You are chosen and have been invited. Here is the token of the pass. Guard it well."
+
+***POP***
+
+With a sound like the loudest cork ever invented, a glowing coin shoots out of the page,
+bonking you right in the forehead, and you're so astonished that, transfixed, you just 
+stand there as the coin hovers in front of your face slowly spinning on its axis.
+
+@py
+# Give the user the coin. Describe it first!
+@endpy
